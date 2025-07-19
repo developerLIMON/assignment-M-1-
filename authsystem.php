@@ -13,10 +13,10 @@ $inputUsername=readline("Enter Username: ");
 if($inputUsername === $Username){
 
     //Asking for Password//
-    $inpuutPassword=readline("Enter Password");
+    $inputPassword=readline("Enter Password");
 
     //Checking Password//
-    if($inpuutPassword === $Password){
+    if($inputPassword === $Password){
         echo"LogIn Successful";
     }else {
         echo "Invalid Password";
